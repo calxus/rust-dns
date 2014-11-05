@@ -1,270 +1,279 @@
 #![feature(slicing_syntax)]
+#![feature(macro_rules)]
 
 use std::io::net::udp::UdpSocket;
 use std::io::net::ip::{Ipv4Addr, SocketAddr};
+use std::io::BufReader;
 
-struct message {
-    ID: u16,
-    QR: u16,
-    OPCODE: u16,
-    AA: u16,
-    TC: u16,
-    RD: u16,
-    RA: u16,
-    RCODE: u16,
-    QDCOUNT: u16,
-    ANCOUNT: u16,
-    NSCOUNT: u16,
-    ARCOUNT: u16,
+macro_rules! unwrap(($e: expr) => (match $e { Ok(v) => v, Err(e) => {fail!("Error")} }))
+
+struct Message {
+    header: Header,
+    questions: Vec<Question>,
+    answers: Vec<Resource>,
+    authority: Vec<Resource>,
+    additional: Vec<Resource>,
 }
 
-struct question {
+struct Header {
+    id: u16,
+    qr: u16,
+    opcode: u16,
+    aa: u16,
+    tc: u16,
+    rd: u16,
+    ra: u16,
+    rcode: u16,
+    qdcount: u16,
+    ancount: u16,
+    nscount: u16,
+    arcount: u16,
+}
+
+struct Name {
     label: Vec<String>,
     length: Vec<u8>,
+}
+
+struct Question {
+    qname: Name,
     qtype: u16,
     qclass: u16,
 }
 
-struct answer {
-    label: Vec<String>,
-    length: Vec<u8>,
-    TYPE: u16,
-    CLASS: u16,
-    TTL: u32,
-    RDLENGTH: u16,
-    RDATA: Vec<u8>,
+struct Resource {
+    rname: Name,
+    rtype: u16,
+    rclass: u16,
+    ttl: u32,
+    rdlength: u16,
+    rdata: Vec<u8>,
 }
 
 fn main() {
-    let mut msg = message {ID: 0, QR: 0, OPCODE: 0, AA: 0, TC: 0, RD: 0, RA: 0, RCODE: 0, QDCOUNT: 0, ANCOUNT: 0, NSCOUNT: 0, ARCOUNT: 0};
-    
     let addr = SocketAddr { ip: Ipv4Addr(127, 0, 0, 1), port: 53 };
     let mut socket = match UdpSocket::bind(addr) {
         Ok(s) => s,
         Err(e) => fail!("couldn't bind socket: {}", e),
     };
-    let mut buf = [0, ..1000];
+    let mut buffer = [0, ..512];
     loop {
-        buf = [0, ..1000];
-        match socket.recv_from(buf) {
+        match socket.recv_from(buffer) {
             Ok((length, src)) => {
-                let mut reader = std::io::BufReader::new(buf.slice_to(length));
-                println!("\n========================\n---Header---");
-                let mut x = reader.read_be_u16().unwrap();
-                msg.ID = x;
-                println!("ID: {}", x);
-                x = reader.read_be_u16().unwrap();
-                if (x & 0x8000) == 0x8000 {println!("QR: 1 (response)"); msg.QR = 0x8000;} else {println!("QR: 0 (query)"); msg.QR = 0x0000;};
-                match x & 0x7800 {
-                    0x0000 => {println!("OPCODE: 0000 (standard query)"); msg.OPCODE = 0x0000;},
-                    0x0800 => {println!("OPCODE: 0001 (inverse query)"); msg.OPCODE = 0x0800;},
-                    0x1000 => {println!("OPCODE: 0010 (server status request)"); msg.OPCODE = 0x1000;},
-                    _ => println!("OPCODE: Reserved Operator")
-                };
-                match x & 0x0780 {
-                    0x0400 => {println!("AA: 1 (Authoritative Answer)\nTC: 0\nRD: 0\nRA: 0"); msg.AA = 0x0400;},
-                    0x0200 => {println!("AA: 0\nTC: 1 (TrunCation)\nRD: 0\nRA: 0"); msg.TC = 0x0200;},
-                    0x0100 => {println!("AA: 0\nTC: 0\nRD: 1 (Recursion Desired)\nRA: 0"); msg.RD = 0x0100;},
-                    0x0080 => {println!("AA: 0\nTC: 0\nRD: 0\nRA: 1 (Recursion Available)"); msg.RA = 0x0080;},
-                    _ => println!("AA: 0\nTC: 0\nRD: 0\nRA: 0\n"),
-                };
-                match x & 0x000F {
-                    0x0000 => {println!("RCODE: 0000 (No Error Condition)"); msg.RCODE = 0x0000;},
-                    0x0001 => {println!("RCODE: 0001 (Format Error)"); msg.RCODE = 0x0001;},
-                    0x0002 => {println!("RCODE: 0010 (Server Failure)"); msg.RCODE = 0x0002;},
-                    0x0003 => {println!("RCODE: 0011 (Name Error)"); msg.RCODE = 0x0003;},
-                    0x0004 => {println!("RCODE: 0100 (Not Implemented)"); msg.RCODE = 0x0004;},
-                    0x0005 => {println!("RCODE: 0101 (Refused)"); msg.RCODE = 0x0005;},
-                    _ => println!("RCODE: (Reserved for Future Use)"),
-                };
-                x = reader.read_be_u16().unwrap();
-                msg.QDCOUNT = x;
-                match x.to_uint() {
-                    Some(n) => println!("QDCOUNT: {}", n),
-                    None => fail!("boo"),
-                };
-                x = reader.read_be_u16().unwrap();
-                msg.ANCOUNT = x;
-                match x.to_uint() {
-                    Some(n) => println!("ANCOUNT: {}", n),
-                    None => fail!("boo"),
-                };
-                x = reader.read_be_u16().unwrap();
-                msg.NSCOUNT = x;
-                match x.to_uint() {
-                    Some(n) => println!("NSCOUNT: {}", n),
-                    None => fail!("boo"),
-                };
-                x = reader.read_be_u16().unwrap();
-                msg.ARCOUNT = x;
-                match x.to_uint() {
-                    Some(n) => println!("ARCOUNT: {}", n),
-                    None => fail!("boo"),
-                };
-
-                println!("\n---Question----");
-
-                let mut qsn = question {label: vec![], length: vec![], qtype: 0, qclass: 0};
-
-                let mut x8 = reader.read_u8().unwrap();
-
-                while (x8 != 0) {
-
-                    let mut label: Vec<u8> = vec![];
-
-                    for i in range(0, x8)  {
-                        let mut y = reader.read_u8().unwrap();
-                        label.insert(0, y);
-                    }
-
-                    label.reverse();
-
-                    qsn.label.insert(0, String::from_utf8(label).unwrap());
-                    qsn.length.insert(0, x8);
-
-                    x8 = reader.read_u8().unwrap();
-                }
-
-                qsn.label.reverse();
-                qsn.length.reverse();
-
-                for i in range(0, qsn.label.len()) {
-                    println!("Label: {} (Length Octet: {})", qsn.label[i], qsn.length[i]);
-                }
-
-                x = reader.read_be_u16().unwrap();
-
-                qsn.qtype = x;
-
-                match x & 0xFFFF {
-                    0x0001 => println!("QTYPE: A (a host address)"),
-                    0x0002 => println!("QTYPE: NS (an authoritative name server)"),
-                    0x0003 => println!("QTYPE: MD (a mail destination (OBSOLETE))"),
-                    0x0004 => println!("QTYPE: MF (a mail forwarder (OBSOLETE))"),
-                    0x0005 => println!("QTYPE: CNAME (the canonical name for an alias)"),
-                    0x0006 => println!("QTYPE: SOA (marks the start of a zone of authority)"),
-                    0x0007 => println!("QTYPE: MB (a mailbox domain name (EXPERIMENTAL))"),
-                    0x0008 => println!("QTYPE: MG (a mail group member (EXPERIMENTAL))"),
-                    0x0009 => println!("QTYPE: MR (a mail rename domain name (EXPERIMENTAL))"),
-                    0x000A => println!("QTYPE: NULL (a null RR (EXPERIMENTAL))"),
-                    0x000B => println!("QTYPE: WKS (a well known service description)"),
-                    0x000C => println!("QTYPE: PTR (a domain name pointer)"),
-                    0x000D => println!("QTYPE: HINFO (host information)"),
-                    0x000E => println!("QTYPE: MINFO (mailbox or mail list information)"),
-                    0x000F => println!("QTYPE: MX (mail exchange)"),
-                    0x0010 => println!("QTYPE: TXT (text strings)"),
-                    0x00FC => println!("QTYPE: AXFR (a request for a transfer of an entire zone)"),
-                    0x00FD => println!("QTYPE: MAILB (a request for mailbox-related records)"),
-                    0x00FE => println!("QTYPE: MAILA (a request for mail agent RRs)"),
-                    0x00FF => println!("QTYPE: * (a request for all records)"),
-                    _ => println!("QTYPE: INVALID ({})", x),
-                };
-
-                x = reader.read_be_u16().unwrap();
-
-                qsn.qclass = x;
-
-                match x & 0xFFFF {
-                    0x0001 => println!("QCLASS: IN (the Internet)"),
-                    0x0002 => println!("QCLASS: CS (the CSNET class (OBSOLETE))"),
-                    0x0003 => println!("QCLASS: CH (the CHAOS class)"),
-                    0x0004 => println!("QCLASS: HS (Hesiod)"),
-                    0x00FF => println!("QCLASS: * (any class)"),
-                    _ => println!("QCLASS: INVALID"),
-                };
-
-                let mut ans = answer {label: vec![], length: vec![], TYPE: 0, CLASS: 0, TTL: 0, RDLENGTH: 0, RDATA: vec![]};
-
-                ans.label = qsn.label.clone();
-                ans.length = qsn.length.clone();
-                ans.TYPE = qsn.qtype;
-                ans.CLASS = qsn.qclass;
-                ans.TTL = 0;
-                ans.RDLENGTH = 4;
-                ans.RDATA.push(74);
-                ans.RDATA.push(125);
-                ans.RDATA.push(230);
-                ans.RDATA.push(144);
-                msg.QR = 0x8000;
-                msg.RA = 0x0080;
-                msg.ANCOUNT = 0x0001;
-
-                let mut msgbuf: Vec<u8> = vec![];
-
-                msgbuf.push(((msg.ID & 0xFF00) >> 8) as u8);
-                msgbuf.push(((msg.ID & 0x00FF) >> 0) as u8);
-
-                let msg2u16: u16 = (msg.QR | msg.OPCODE | msg.AA | msg.TC | msg.RD | msg.RA | msg.RCODE);
-
-                msgbuf.push(((msg2u16 & 0xFF00) >> 8) as u8);
-                msgbuf.push(((msg2u16 & 0x00FF) >> 0) as u8);
-
-                msgbuf.push(((msg.QDCOUNT & 0xFF00) >> 8) as u8);
-                msgbuf.push(((msg.QDCOUNT & 0x00FF) >> 0) as u8);
-
-                msgbuf.push(((msg.ANCOUNT & 0xFF00) >> 8) as u8);
-                msgbuf.push(((msg.ANCOUNT & 0x00FF) >> 0) as u8);
-
-                msgbuf.push(((msg.NSCOUNT & 0xFF00) >> 8) as u8);
-                msgbuf.push(((msg.NSCOUNT & 0x00FF) >> 0) as u8);
-
-                msgbuf.push(((msg.ARCOUNT & 0xFF00) >> 8) as u8);
-                msgbuf.push(((msg.ARCOUNT & 0x00FF) >> 0) as u8);
-
-                for i in range(0, qsn.label.len()) {
-                    let mut qsnbuf = qsn.label[i].clone().into_bytes();
-                    msgbuf.push(qsn.length[i]);
-                    for j in range(0, qsnbuf.len()) {
-                        msgbuf.push(qsnbuf[j]);
-                    }
-                }
-                msgbuf.push(0u8);
-
-                msgbuf.push(((qsn.qtype & 0xFF00) >> 8) as u8);
-                msgbuf.push(((qsn.qtype & 0x00FF) >> 0) as u8);
-
-                msgbuf.push(((qsn.qclass & 0xFF00) >> 8) as u8);
-                msgbuf.push(((qsn.qclass & 0x00FF) >> 0) as u8);
-
-                for i in range(0, ans.label.len()) {
-                    let mut ansbuf = ans.label[i].clone().into_bytes();
-                    msgbuf.push(ans.length[i]);
-                    for j in range(0, ansbuf.len()) {
-                        msgbuf.push(ansbuf[j]);
-                    }
-                }
-
-                msgbuf.push(0u8);
-
-                msgbuf.push(((ans.TYPE & 0xFF00) >> 8) as u8);
-                msgbuf.push(((ans.TYPE & 0x00FF) >> 0) as u8);
-
-                msgbuf.push(((ans.CLASS & 0xFF00) >> 8) as u8);
-                msgbuf.push(((ans.CLASS & 0x00FF) >> 0) as u8);
-
-                let ttl: u8 = 0;
-
-                msgbuf.push(ttl);
-                msgbuf.push(ttl);
-                msgbuf.push(ttl);
-                msgbuf.push(ttl);
-
-                msgbuf.push(((ans.RDLENGTH & 0xFF00) >> 8) as u8);
-                msgbuf.push(((ans.RDLENGTH & 0x00FF) >> 0) as u8);
-
-                msgbuf.push(ans.RDATA[0]);
-                msgbuf.push(ans.RDATA[1]);
-                msgbuf.push(ans.RDATA[2]);
-                msgbuf.push(ans.RDATA[3]);
-
-                match socket.send_to(msgbuf.as_slice(), src) {
-                    Ok(r) => {},
-                    Err(e) => {},
-                };
-
+                let mut message = read_request(&mut buffer, length);
+                generate_response(&mut message);
+                write_response(&mut message, src, &mut socket);
             },
             Err(e) => println!("couldn't receive a datagram: {}", e)
         }
     }
-    drop(socket); // close the socket
 }
+
+fn read_request(buffer: &mut [u8, ..512], length: uint) -> Message {
+
+    let mut reader = BufReader::new(buffer.slice_to(length));
+
+    let mut message = Message {
+
+        header: Header{
+
+            id: 0, 
+            qr: 0, 
+            opcode: 0, 
+            aa: 0, 
+            tc: 0, 
+            rd: 0, 
+            ra: 0, 
+            rcode: 0, 
+            qdcount: 0, 
+            ancount: 0, 
+            nscount: 0, 
+            arcount: 0
+        }, 
+
+        questions: vec![], 
+        answers: vec![], 
+        authority: vec![], 
+        additional: vec![]
+    };
+
+    let mut u16_buffer= unwrap!(reader.read_be_u16());
+    message.header.id = u16_buffer.clone();
+
+    u16_buffer = unwrap!(reader.read_be_u16());
+
+    if (u16_buffer & 0x8000) == 0x8000 {
+        message.header.qr = 0x8000;
+    } else {
+        message.header.qr = 0x0000;
+    };
+
+    match u16_buffer& 0x7800 {
+        0x0000 => {message.header.opcode = 0x0000;},
+        0x0800 => {message.header.opcode = 0x0800;},
+        0x1000 => {message.header.opcode = 0x1000;},
+        _ => fail!("Invalid OpCode"),
+    };
+
+    if ((u16_buffer & 0x0780) == 0x0400) { message.header.aa = 0x0400 };
+    if ((u16_buffer & 0x0780) == 0x0200) { message.header.tc = 0x0200 };
+    if ((u16_buffer & 0x0780) == 0x0100) { message.header.rd = 0x0100 };
+    if ((u16_buffer & 0x0780) == 0x0080) { message.header.ra = 0x0080 };
+
+    match u16_buffer & 0x000F {
+        0x0000 => {message.header.rcode = 0x0000;},
+        0x0001 => {message.header.rcode = 0x0001;},
+        0x0002 => {message.header.rcode = 0x0002;},
+        0x0003 => {message.header.rcode = 0x0003;},
+        0x0004 => {message.header.rcode = 0x0004;},
+        0x0005 => {message.header.rcode = 0x0005;},
+        _ => fail!("Invalid RCode"),
+    };
+
+    u16_buffer = unwrap!(reader.read_be_u16());
+    message.header.qdcount = u16_buffer;
+
+    u16_buffer = unwrap!(reader.read_be_u16());
+    message.header.ancount = u16_buffer;
+
+    u16_buffer = unwrap!(reader.read_be_u16());
+    message.header.nscount = u16_buffer;
+
+    u16_buffer = unwrap!(reader.read_be_u16());
+    message.header.arcount = u16_buffer;
+
+    let mut question = Question {qname: Name {label: vec![], length: vec![]}, qtype: 0, qclass: 0};
+
+    let mut byte_buffer = unwrap!(reader.read_u8());
+
+    while (byte_buffer != 0) {
+
+        let mut label: Vec<u8> = vec![];
+
+        for i in range(0, byte_buffer)  {
+            let mut temp_byte_buffer = unwrap!(reader.read_u8());
+            label.push(temp_byte_buffer);
+        }
+
+        question.qname.label.push(unwrap!(String::from_utf8(label)));
+        question.qname.length.push(byte_buffer);
+
+        byte_buffer = unwrap!(reader.read_u8());
+    }
+
+    u16_buffer = unwrap!(reader.read_be_u16());
+    question.qtype = u16_buffer;
+
+    u16_buffer = unwrap!(reader.read_be_u16());
+    question.qclass = u16_buffer;
+
+    message.questions.push(question);
+
+    return message;
+}
+
+fn generate_response(message: &mut Message) {
+
+    let mut answer = Resource {rname: Name {label: vec![], length: vec![]}, rtype: 0, rclass: 0, ttl: 0, rdlength: 0, rdata: vec![]};
+
+    answer.rname.label = message.questions[0].qname.label.clone();
+    answer.rname.length = message.questions[0].qname.length.clone();
+    answer.rtype = message.questions[0].qtype;
+    answer.rclass = message.questions[0].qclass;
+    answer.ttl = 0;
+    answer.rdlength = 4;
+    answer.rdata.push(74);
+    answer.rdata.push(125);
+    answer.rdata.push(230);
+    answer.rdata.push(144);
+
+    message.answers.push(answer);
+    message.header.qr = 0x8000;
+    message.header.ra = 0x0080;
+    message.header.ancount = 0x0001;
+}
+
+fn write_response(message: &mut Message, src: SocketAddr, socket: &mut UdpSocket) {
+
+    let mut message_buffer: Vec<u8> = vec![];
+
+    split_u16(message.header.id, &mut message_buffer);
+
+    let header_options: u16 = (
+        message.header.qr | 
+        message.header.opcode | 
+        message.header.aa | 
+        message.header.tc | 
+        message.header.rd | 
+        message.header.ra | 
+        message.header.rcode
+    );
+
+    split_u16(header_options, &mut message_buffer);
+    split_u16(message.header.qdcount, &mut message_buffer);
+    split_u16(message.header.ancount, &mut message_buffer);
+    split_u16(message.header.nscount, &mut message_buffer);
+    split_u16(message.header.arcount, &mut message_buffer);
+
+    for i in range(0, message.questions[0].qname.label.len()) {
+        let mut question_buffer = message.questions[0].qname.label[i].clone().into_bytes();
+        message_buffer.push(message.questions[0].qname.length[i]);
+        for j in range(0, question_buffer.len()) {
+            message_buffer.push(question_buffer[j]);
+        }
+    }
+    message_buffer.push(0u8);
+
+    split_u16(message.questions[0].qtype, &mut message_buffer);
+    split_u16(message.questions[0].qclass, &mut message_buffer);
+
+    for i in range(0, message.answers[0].rname.label.len()) {
+        let mut answer_buffer = message.answers[0].rname.label[i].clone().into_bytes();
+        message_buffer.push(message.answers[0].rname.length[i]);
+        for j in range(0, answer_buffer.len()) {
+            message_buffer.push(answer_buffer[j]);
+        }
+    }
+    message_buffer.push(0u8);
+
+    split_u16(message.answers[0].rtype, &mut message_buffer);
+    split_u16(message.answers[0].rclass, &mut message_buffer);
+
+    let ttl: u8 = 0;
+    message_buffer.push(ttl);
+    message_buffer.push(ttl);
+    message_buffer.push(ttl);
+    message_buffer.push(ttl);
+
+    split_u16(message.answers[0].rdlength, &mut message_buffer);
+
+    message_buffer.push(message.answers[0].rdata[0]);
+    message_buffer.push(message.answers[0].rdata[1]);
+    message_buffer.push(message.answers[0].rdata[2]);
+    message_buffer.push(message.answers[0].rdata[3]);
+
+    match socket.send_to(message_buffer.as_slice(), src) {
+        Ok(r) => {},
+        Err(e) => {},
+    };   
+           
+}
+
+fn split_u16(u: u16, message_buffer: &mut Vec<u8>) {
+    message_buffer.push(((u & 0xFF00) >> 8) as u8);
+    message_buffer.push(((u & 0x00FF) >> 0) as u8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
