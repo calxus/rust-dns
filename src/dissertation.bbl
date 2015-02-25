@@ -1,0 +1,22 @@
+\begin{thebibliography}{1}
+
+\bibitem{bind}
+Internet~Systems Consortium.
+\newblock Bind.
+\newblock \url{https://www.isc.org/downloads/bind/}.
+\newblock Accessed: 25/02/2015.
+
+\bibitem{rfc2929}
+Eastlake. et~al.
+\newblock {R}{F}{C} 2929 {D}{N}{S} {I}{A}{N}{A} {C}onsiderations, 2000.
+
+\bibitem{rfc2671}
+P.~Vixie.
+\newblock {R}{F}{C} 2671 {E}xtension {M}echanisms for {D}{N}{S}, 1999.
+
+\bibitem{rfc2136}
+P.~et~al. Vixie.
+\newblock {R}{F}{C} 2136 {D}ynamic {U}pdates in the {D}omain {N}ame {S}ystem,
+  1997.
+
+\end{thebibliography}

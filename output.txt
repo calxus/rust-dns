@@ -1,0 +1,3565 @@
+   Compiling rust-dns v0.0.1 (file:///Users/gtadam/Documents/glasgow_uni/project/rust/rust-dns)
+     Running `target/rust-dns`
+
+Transaction ID: 0x2618
+0... .... .... .... = Response: Message is a request
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 0
+Additional RRs: 0
+Queries
+	Name: fbcdn-profile-a.akamaihd.net
+	[Name Length: 26]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+Additional Records
+
+Transaction ID: 0x2618
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 13
+Additional RRs: 14
+Queries
+	Name: fbcdn-profile-a.akamaihd.net
+	[Name Length: 26]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 17
+	Name: m.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: l.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: k.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: j.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: i.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: h.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: g.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: f.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: e.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: d.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: c.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: b.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: a.gtld-servers.net
+
+Additional Records
+	Name: m.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.55.83.30
+
+	Name: l.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.41.162.30
+
+	Name: k.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.52.178.30
+
+	Name: j.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.48.79.30
+
+	Name: i.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.43.172.30
+
+	Name: h.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.54.112.30
+
+	Name: g.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.42.93.30
+
+	Name: f.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.35.51.30
+
+	Name: e.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.12.94.30
+
+	Name: d.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.31.80.30
+
+	Name: c.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.26.92.30
+
+	Name: b.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.33.14.30
+
+	Name: b.gtld-servers.net
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:503:231D:0:0:0:2:30
+
+	Name: a.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.5.6.30
+
+
+Transaction ID: 0x2618
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 11
+Additional RRs: 11
+Queries
+	Name: fbcdn-profile-a.akamaihd.net
+	[Name Length: 26]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 18
+	Name: p5.akamaistream.net
+
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: p7.akamaistream.net
+
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: p8.akamaistream.net
+
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: p6.akamaistream.net
+
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ax0.akamaistream.net
+
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ax1.akamaistream.net
+
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ax2.akamaistream.net
+
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ax3.akamaistream.net
+
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 9
+	Name: ns2-32.akamaistream.net
+
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 9
+	Name: ns3-32.akamaistream.net
+
+	Name: akamaihd.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 9
+	Name: ns6-32.akamaistream.net
+
+Additional Records
+	Name: p5.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 193.108.88.66
+
+	Name: p7.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 95.101.36.32
+
+	Name: p8.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 23.74.25.32
+
+	Name: p6.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 95.100.175.32
+
+	Name: ax0.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 72.246.46.5
+
+	Name: ax1.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 184.26.161.32
+
+	Name: ax2.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 95.100.174.35
+
+	Name: ax3.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 96.7.49.32
+
+	Name: ns2-32.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 2.22.230.32
+
+	Name: ns3-32.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 23.61.199.32
+
+	Name: ns6-32.akamaistream.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 95.100.168.32
+
+
+Transaction ID: 0xBC36
+0... .... .... .... = Response: Message is a request
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 0
+Additional RRs: 0
+Queries
+	Name: www.audible.co.uk
+	[Name Length: 14]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+Additional Records
+
+Transaction ID: 0x2618
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .1.. .... .... = Authoritative: Server is an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 1
+Authority RRs: 0
+Additional RRs: 0
+Queries
+	Name: fbcdn-profile-a.akamaihd.net
+	[Name Length: 26]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+	Name: fbcdn-profile-a.akamaihd.net
+	Type: CNAME (Canonical name record) (5)
+	Class: IN (0x0001)
+	Time to live: 300
+	Data Length: 20
+	Authoritative Name Servers
+Additional Records
+
+Transaction ID: 0xBC36
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 10
+Additional RRs: 13
+Queries
+	Name: www.audible.co.uk
+	[Name Length: 14]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: nsd.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: nsc.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: nsb.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: nsa.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns7.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns6.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns5.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns4.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns2.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns1.nic.uk
+
+Additional Records
+	Name: nsd.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 156.154.103.3
+
+	Name: nsc.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 156.154.102.3
+
+	Name: nsb.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 156.154.101.3
+
+	Name: nsa.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 156.154.100.3
+
+	Name: nsa.nic.uk
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:502:AD09:0:0:0:0:3
+
+	Name: ns7.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 212.121.40.130
+
+	Name: ns6.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 213.248.254.130
+
+	Name: ns5.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 213.246.167.131
+
+	Name: ns4.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 194.83.244.131
+
+	Name: ns4.nic.uk
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:630:181:35:0:0:0:83
+
+	Name: ns2.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 217.79.164.131
+
+	Name: ns1.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 195.66.240.130
+
+	Name: ns1.nic.uk
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2A01:40:1001:35:0:0:0:2
+
+
+Transaction ID: 0xF6F9
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 13
+Additional RRs: 14
+Queries
+	Name: a2047.dspl.akamai.net
+	[Name Length: 18]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 17
+	Name: m.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: l.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: k.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: j.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: i.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: h.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: g.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: f.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: e.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: d.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: c.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: b.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: a.gtld-servers.net
+
+Additional Records
+	Name: m.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.55.83.30
+
+	Name: l.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.41.162.30
+
+	Name: k.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.52.178.30
+
+	Name: j.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.48.79.30
+
+	Name: i.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.43.172.30
+
+	Name: h.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.54.112.30
+
+	Name: g.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.42.93.30
+
+	Name: f.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.35.51.30
+
+	Name: e.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.12.94.30
+
+	Name: d.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.31.80.30
+
+	Name: c.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.26.92.30
+
+	Name: b.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.33.14.30
+
+	Name: b.gtld-servers.net
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:503:231D:0:0:0:2:30
+
+	Name: a.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.5.6.30
+
+
+Transaction ID: 0xBC36
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 8
+Additional RRs: 0
+Queries
+	Name: www.audible.co.uk
+	[Name Length: 14]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 20
+	Name: ns2.p31.dynect.net
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns1.p31.dynect.net
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 17
+	Name: pdns2.ultradns.net
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 8
+	Name: pdns1.ultradns.net
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 20
+	Name: pdns4.ultradns.org
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 21
+	Name: pdns5.ultradns.info
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 8
+	Name: pdns3.ultradns.org
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 17
+	Name: pdns6.ultradns.co.uk
+
+Additional Records
+
+Transaction ID: 0xD5D8
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 13
+Additional RRs: 14
+Queries
+	Name: ns2.p31.dynect.net
+	[Name Length: 15]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 17
+	Name: m.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: l.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: k.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: j.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: i.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: h.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: g.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: f.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: e.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: d.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: c.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: b.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: a.gtld-servers.net
+
+Additional Records
+	Name: m.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.55.83.30
+
+	Name: l.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.41.162.30
+
+	Name: k.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.52.178.30
+
+	Name: j.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.48.79.30
+
+	Name: i.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.43.172.30
+
+	Name: h.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.54.112.30
+
+	Name: g.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.42.93.30
+
+	Name: f.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.35.51.30
+
+	Name: e.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.12.94.30
+
+	Name: d.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.31.80.30
+
+	Name: c.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.26.92.30
+
+	Name: b.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.33.14.30
+
+	Name: b.gtld-servers.net
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:503:231D:0:0:0:2:30
+
+	Name: a.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.5.6.30
+
+
+Transaction ID: 0xF6F9
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 13
+Additional RRs: 13
+Queries
+	Name: a2047.dspl.akamai.net
+	[Name Length: 18]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Name: zc.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: zd.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: ze.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: zg.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: zh.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: zi.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns3-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns2-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns4-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns6-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns7-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns5-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 8
+	Name: ns1-1.akamaitech.net
+
+Additional Records
+	Name: zc.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 23.74.25.192
+
+	Name: zd.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 95.101.36.192
+
+	Name: ze.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 184.26.161.192
+
+	Name: zg.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 96.7.50.192
+
+	Name: zh.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 23.211.133.192
+
+	Name: zi.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 184.26.161.192
+
+	Name: ns3-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 23.61.199.193
+
+	Name: ns2-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 2.22.230.193
+
+	Name: ns4-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 84.53.139.193
+
+	Name: ns6-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 95.100.168.193
+
+	Name: ns7-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 96.7.49.193
+
+	Name: ns5-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 184.85.248.193
+
+	Name: ns1-1.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 193.108.88.1
+
+
+Transaction ID: 0xF6F9
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 8
+Additional RRs: 8
+Queries
+	Name: a2047.dspl.akamai.net
+	[Name Length: 18]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 9
+	Name: n7dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 8000
+	Data Length: 9
+	Name: n2dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 8000
+	Data Length: 9
+	Name: n5dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 9
+	Name: n0dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 9
+	Name: n3dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 9
+	Name: n6dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 9
+	Name: n4dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 9
+	Name: n1dspl.akamai.net
+
+Additional Records
+	Name: n7dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 4
+	Address: 213.120.161.164
+
+	Name: n2dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 8000
+	Data Length: 4
+	Address: 80.15.240.37
+
+	Name: n5dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 8000
+	Data Length: 4
+	Address: 213.120.161.172
+
+	Name: n0dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 4
+	Address: 213.120.161.156
+
+	Name: n3dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 4
+	Address: 88.221.81.195
+
+	Name: n6dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 4
+	Address: 213.120.161.174
+
+	Name: n4dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 4
+	Address: 213.120.161.175
+
+	Name: n1dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 4
+	Address: 92.122.126.45
+
+
+Transaction ID: 0xD5D8
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 4
+Additional RRs: 6
+Queries
+	Name: ns2.p31.dynect.net
+	[Name Length: 15]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: dynect.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 29
+	Name: ns1.dynamicnetworkservices.net
+
+	Name: dynect.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns2.dynamicnetworkservices.net
+
+	Name: dynect.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns3.dynamicnetworkservices.net
+
+	Name: dynect.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns4.dynamicnetworkservices.net
+
+Additional Records
+	Name: ns1.dynamicnetworkservices.net
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:500:90:0:0:0:0:100
+
+	Name: ns1.dynamicnetworkservices.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 208.78.70.100
+
+	Name: ns2.dynamicnetworkservices.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 204.13.250.100
+
+	Name: ns3.dynamicnetworkservices.net
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:500:94:0:0:0:0:100
+
+	Name: ns3.dynamicnetworkservices.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 208.78.71.100
+
+	Name: ns4.dynamicnetworkservices.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 204.13.251.100
+
+
+Transaction ID: 0xF6F9
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .1.. .... .... = Authoritative: Server is an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 9
+Authority RRs: 0
+Additional RRs: 0
+Queries
+	Name: a2047.dspl.akamai.net
+	[Name Length: 18]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.64
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.41
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.50
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.25
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.66
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.17
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.88
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.16
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.82
+
+Authoritative Name Servers
+Additional Records
+
+Transaction ID: 0x2618
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .1.. .... .... = Authoritative: Server is an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 1
+Authority RRs: 0
+Additional RRs: 0
+Queries
+	Name: fbcdn-profile-a.akamaihd.net
+	[Name Length: 26]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+	Name: fbcdn-profile-a.akamaihd.net
+	Type: CNAME (Canonical name record) (5)
+	Class: IN (0x0001)
+	Time to live: 300
+	Data Length: 20
+	Authoritative Name Servers
+Additional Records
+
+Transaction ID: 0xE9A2
+0... .... .... .... = Response: Message is a request
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 0
+Additional RRs: 0
+Queries
+	Name: a2047.dspl.akamai.net
+	[Name Length: 18]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+Additional Records
+
+Transaction ID: 0xE9A2
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 13
+Additional RRs: 14
+Queries
+	Name: a2047.dspl.akamai.net
+	[Name Length: 18]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 17
+	Name: m.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: l.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: k.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: j.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: i.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: h.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: g.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: f.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: e.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: d.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: c.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: b.gtld-servers.net
+
+	Name: net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: a.gtld-servers.net
+
+Additional Records
+	Name: m.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.55.83.30
+
+	Name: l.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.41.162.30
+
+	Name: k.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.52.178.30
+
+	Name: j.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.48.79.30
+
+	Name: i.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.43.172.30
+
+	Name: h.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.54.112.30
+
+	Name: g.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.42.93.30
+
+	Name: f.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.35.51.30
+
+	Name: e.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.12.94.30
+
+	Name: d.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.31.80.30
+
+	Name: c.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.26.92.30
+
+	Name: b.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.33.14.30
+
+	Name: b.gtld-servers.net
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:503:231D:0:0:0:2:30
+
+	Name: a.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.5.6.30
+
+
+Transaction ID: 0xE9A2
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 13
+Additional RRs: 13
+Queries
+	Name: a2047.dspl.akamai.net
+	[Name Length: 18]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Name: zc.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: zd.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: ze.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: zg.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: zh.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: zi.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns3-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns2-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns4-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns6-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns7-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: ns5-193.akamaitech.net
+
+	Name: akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 8
+	Name: ns1-1.akamaitech.net
+
+Additional Records
+	Name: zc.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 23.74.25.192
+
+	Name: zd.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 95.101.36.192
+
+	Name: ze.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 184.26.161.192
+
+	Name: zg.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 96.7.50.192
+
+	Name: zh.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 23.211.133.192
+
+	Name: zi.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 184.26.161.192
+
+	Name: ns3-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 23.61.199.193
+
+	Name: ns2-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 2.22.230.193
+
+	Name: ns4-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 84.53.139.193
+
+	Name: ns6-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 95.100.168.193
+
+	Name: ns7-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 96.7.49.193
+
+	Name: ns5-193.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 184.85.248.193
+
+	Name: ns1-1.akamaitech.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 193.108.88.1
+
+
+Transaction ID: 0xE9A2
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 8
+Additional RRs: 8
+Queries
+	Name: a2047.dspl.akamai.net
+	[Name Length: 18]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 9
+	Name: n3dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 9
+	Name: n6dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 9
+	Name: n0dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 9
+	Name: n7dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 9
+	Name: n4dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 8000
+	Data Length: 9
+	Name: n2dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 9
+	Name: n1dspl.akamai.net
+
+	Name: dspl.akamai.net
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 8000
+	Data Length: 9
+	Name: n5dspl.akamai.net
+
+Additional Records
+	Name: n3dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 4
+	Address: 80.15.240.37
+
+	Name: n6dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 4
+	Address: 213.120.161.175
+
+	Name: n0dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 4000
+	Data Length: 4
+	Address: 88.221.81.192
+
+	Name: n7dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 4
+	Address: 213.120.161.172
+
+	Name: n4dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 4
+	Address: 213.120.161.157
+
+	Name: n2dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 8000
+	Data Length: 4
+	Address: 92.122.126.47
+
+	Name: n1dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 6000
+	Data Length: 4
+	Address: 213.120.161.173
+
+	Name: n5dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 8000
+	Data Length: 4
+	Address: 213.120.161.156
+
+
+Transaction ID: 0xE9A2
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .1.. .... .... = Authoritative: Server is an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 9
+Authority RRs: 0
+Additional RRs: 0
+Queries
+	Name: a2047.dspl.akamai.net
+	[Name Length: 18]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.75
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.43
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.49
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.67
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.24
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.32
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.34
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.81
+
+	Name: a2047.dspl.akamai.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 20
+	Data Length: 4
+	Address: 213.123.85.65
+
+Authoritative Name Servers
+Additional Records
+
+Transaction ID: 0xBC36
+0... .... .... .... = Response: Message is a request
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 0
+Additional RRs: 0
+Queries
+	Name: www.audible.co.uk
+	[Name Length: 14]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+Additional Records
+
+Transaction ID: 0xBC36
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 10
+Additional RRs: 13
+Queries
+	Name: www.audible.co.uk
+	[Name Length: 14]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 10
+	Name: nsd.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: nsc.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: nsb.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: nsa.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns7.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns6.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns5.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns4.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns2.nic.uk
+
+	Name: uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns1.nic.uk
+
+Additional Records
+	Name: nsd.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 156.154.103.3
+
+	Name: nsc.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 156.154.102.3
+
+	Name: nsb.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 156.154.101.3
+
+	Name: nsa.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 156.154.100.3
+
+	Name: nsa.nic.uk
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:502:AD09:0:0:0:0:3
+
+	Name: ns7.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 212.121.40.130
+
+	Name: ns6.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 213.248.254.130
+
+	Name: ns5.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 213.246.167.131
+
+	Name: ns4.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 194.83.244.131
+
+	Name: ns4.nic.uk
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:630:181:35:0:0:0:83
+
+	Name: ns2.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 217.79.164.131
+
+	Name: ns1.nic.uk
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 195.66.240.130
+
+	Name: ns1.nic.uk
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2A01:40:1001:35:0:0:0:2
+
+
+Transaction ID: 0xBC36
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 8
+Additional RRs: 0
+Queries
+	Name: www.audible.co.uk
+	[Name Length: 14]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 20
+	Name: pdns3.ultradns.org
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 20
+	Name: ns1.p31.dynect.net
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 17
+	Name: pdns6.ultradns.co.uk
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 17
+	Name: pdns2.ultradns.net
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 21
+	Name: pdns5.ultradns.info
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns2.p31.dynect.net
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 8
+	Name: pdns4.ultradns.org
+
+	Name: audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 8
+	Name: pdns1.ultradns.net
+
+Additional Records
+
+Transaction ID: 0x7C8F
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 6
+Additional RRs: 12
+Queries
+	Name: pdns3.ultradns.org
+	[Name Length: 16]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 21
+	Name: d0.org.afilias-nst.org
+
+	Name: org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: b2.org.afilias-nst.org
+
+	Name: org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: b0.org.afilias-nst.org
+
+	Name: org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 25
+	Name: c0.org.afilias-nst.info
+
+	Name: org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: a2.org.afilias-nst.info
+
+	Name: org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 5
+	Name: a0.org.afilias-nst.info
+
+Additional Records
+	Name: d0.org.afilias-nst.org
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 199.19.57.1
+
+	Name: d0.org.afilias-nst.org
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:500:F:0:0:0:0:1
+
+	Name: b2.org.afilias-nst.org
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 199.249.120.1
+
+	Name: b2.org.afilias-nst.org
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:500:48:0:0:0:0:1
+
+	Name: b0.org.afilias-nst.org
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 199.19.54.1
+
+	Name: b0.org.afilias-nst.org
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:500:C:0:0:0:0:1
+
+	Name: c0.org.afilias-nst.info
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 199.19.53.1
+
+	Name: c0.org.afilias-nst.info
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:500:B:0:0:0:0:1
+
+	Name: a2.org.afilias-nst.info
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 199.249.112.1
+
+	Name: a2.org.afilias-nst.info
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:500:40:0:0:0:0:1
+
+	Name: a0.org.afilias-nst.info
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 199.19.56.1
+
+	Name: a0.org.afilias-nst.info
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:500:E:0:0:0:0:1
+
+
+Transaction ID: 0x7C8F
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 6
+Additional RRs: 2
+Queries
+	Name: pdns3.ultradns.org
+	[Name Length: 16]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 86400
+	Data Length: 23
+	Name: pdns196.ultradns.info
+
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 86400
+	Data Length: 10
+	Name: pdns196.ultradns.org
+
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 86400
+	Data Length: 22
+	Name: pdns196.ultradns.net
+
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 86400
+	Data Length: 22
+	Name: pdns196.ultradns.biz
+
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 86400
+	Data Length: 22
+	Name: pdns196.ultradns.com
+
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 86400
+	Data Length: 24
+	Name: pdns196.ultradns.co.uk
+
+Additional Records
+	Name: pdns196.ultradns.org
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 86400
+	Data Length: 4
+	Address: 156.154.67.196
+
+	Name: pdns196.ultradns.org
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 86400
+	Data Length: 16
+	Address: 2001:502:4612:0:0:0:0:E8
+
+
+Transaction ID: 0x7C8F
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .1.. .... .... = Authoritative: Server is an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 1
+Authority RRs: 6
+Additional RRs: 0
+Queries
+	Name: pdns3.ultradns.org
+	[Name Length: 16]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+	Name: pdns3.ultradns.org
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 4
+	Address: 199.7.68.1
+
+Authoritative Name Servers
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 22
+	Name: pdns196.ultradns.biz
+
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 23
+	Name: pdns196.ultradns.info
+
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 10
+	Name: pdns196.ultradns.org
+
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 22
+	Name: pdns196.ultradns.net
+
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 24
+	Name: pdns196.ultradns.co.uk
+
+	Name: ultradns.org
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 22
+	Name: pdns196.ultradns.com
+
+Additional Records
+
+Transaction ID: 0xBC36
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 6
+Additional RRs: 0
+Queries
+	Name: www.audible.co.uk
+	[Name Length: 14]
+	[Label Count: 4]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: www.audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 19
+	Name: ns-923.amazon.com
+
+	Name: www.audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 9
+	Name: ns-912.amazon.com
+
+	Name: www.audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 9
+	Name: ns-921.amazon.com
+
+	Name: www.audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 9
+	Name: ns-911.amazon.com
+
+	Name: www.audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 9
+	Name: ns-932.amazon.com
+
+	Name: www.audible.co.uk
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 3600
+	Data Length: 9
+	Name: ns-931.amazon.com
+
+Additional Records
+
+Transaction ID: 0x7E23
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 13
+Additional RRs: 14
+Queries
+	Name: ns-923.amazon.com
+	[Name Length: 15]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 20
+	Name: m.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: l.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: k.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: j.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: i.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: h.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: g.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: f.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: e.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: d.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: c.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: b.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: a.gtld-servers.net
+
+Additional Records
+	Name: m.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.55.83.30
+
+	Name: l.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.41.162.30
+
+	Name: k.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.52.178.30
+
+	Name: j.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.48.79.30
+
+	Name: i.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.43.172.30
+
+	Name: h.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.54.112.30
+
+	Name: g.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.42.93.30
+
+	Name: f.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.35.51.30
+
+	Name: e.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.12.94.30
+
+	Name: d.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.31.80.30
+
+	Name: c.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.26.92.30
+
+	Name: b.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.33.14.30
+
+	Name: b.gtld-servers.net
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:503:231D:0:0:0:2:30
+
+	Name: a.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.5.6.30
+
+
+Transaction ID: 0x7E23
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 6
+Additional RRs: 6
+Queries
+	Name: ns-923.amazon.com
+	[Name Length: 15]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: amazon.com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 20
+	Name: pdns1.ultradns.net
+
+	Name: amazon.com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 22
+	Name: pdns6.ultradns.co.uk
+
+	Name: amazon.com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 17
+	Name: ns1.p31.dynect.net
+
+	Name: amazon.com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns3.p31.dynect.net
+
+	Name: amazon.com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns2.p31.dynect.net
+
+	Name: amazon.com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 6
+	Name: ns4.p31.dynect.net
+
+Additional Records
+	Name: pdns1.ultradns.net
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:502:F3FF:0:0:0:0:1
+
+	Name: pdns1.ultradns.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 204.74.108.1
+
+	Name: ns1.p31.dynect.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 208.78.70.31
+
+	Name: ns3.p31.dynect.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 208.78.71.31
+
+	Name: ns2.p31.dynect.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 204.13.250.31
+
+	Name: ns4.p31.dynect.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 204.13.251.31
+
+
+Transaction ID: 0xB270
+0... .... .... .... = Response: Message is a request
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 0
+Additional RRs: 0
+Queries
+	Name: 3-edge-chat.facebook.com
+	[Name Length: 22]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+Additional Records
+
+Transaction ID: 0xB270
+1... .... .... .... = Response: Message is a response
+.000 0... .... .... = Opcode: Standard query (0)
+.... .0.. .... .... = Authoritative: Server is not an authority for domain
+.... ..0. .... .... = Truncated: Message is not truncated
+.... ...0 .... .... = Recursion desired: Do not query recursively
+.... .... 0... .... = Recursion available: Server can't do recursive queries
+.... .... .000 .... = Z: reserved (0)
+.... .... .... 0000 = Reply code: No error (0)
+Questions: 1
+Answer RRs: 0
+Authority RRs: 13
+Additional RRs: 14
+Queries
+	Name: 3-edge-chat.facebook.com
+	[Name Length: 22]
+	[Label Count: 3]
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+Answers
+Authoritative Name Servers
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 20
+	Name: m.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: l.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: k.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: j.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: i.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: h.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: g.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: f.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: e.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: d.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: c.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: b.gtld-servers.net
+
+	Name: com
+	Type: NS (Name server record) (2)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Name: a.gtld-servers.net
+
+Additional Records
+	Name: m.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.55.83.30
+
+	Name: l.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.41.162.30
+
+	Name: k.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.52.178.30
+
+	Name: j.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.48.79.30
+
+	Name: i.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.43.172.30
+
+	Name: h.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.54.112.30
+
+	Name: g.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.42.93.30
+
+	Name: f.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.35.51.30
+
+	Name: e.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.12.94.30
+
+	Name: d.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.31.80.30
+
+	Name: c.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.26.92.30
+
+	Name: b.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.33.14.30
+
+	Name: b.gtld-servers.net
+	Type: AAAA (IPv6 address record) (28)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 16
+	Address: 2001:503:231D:0:0:0:2:30
+
+	Name: a.gtld-servers.net
+	Type: A (Address record) (1)
+	Class: IN (0x0001)
+	Time to live: 172800
+	Data Length: 4
+	Address: 192.5.6.30
+

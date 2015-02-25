@@ -3,3 +3,6 @@
 name = "rust-dns"
 version = "0.0.1"
 authors = ["gtadam <gtadam89@gmail.com>"]
+
+[dependencies]
+time = "*"

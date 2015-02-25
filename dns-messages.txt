@@ -1,0 +1,91 @@
+     Running `target/rust-dns`
+
+========================
+---Header---
+ID: 61547
+QR: 0 (query)
+OPCODE: 0000 (standard query)
+AA: 0
+TC: 0
+RD: 1 (Recursion Desired)
+RA: 0
+RCODE: 0000 (No Error Condition)
+QDCOUNT: 1
+ANCOUNT: 0
+NSCOUNT: 0
+ARCOUNT: 0
+
+---Question----
+Label: www (Length Octet: 3)
+Label: facebook (Length Octet: 8)
+Label: com (Length Octet: 3)
+QTYPE: A (a host address)
+QCLASS: IN (the Internet)
+
+========================
+---Header---
+ID: 4397
+QR: 0 (query)
+OPCODE: 0000 (standard query)
+AA: 0
+TC: 0
+RD: 1 (Recursion Desired)
+RA: 0
+RCODE: 0000 (No Error Condition)
+QDCOUNT: 1
+ANCOUNT: 0
+NSCOUNT: 0
+ARCOUNT: 0
+
+---Question----
+Label: www (Length Octet: 3)
+Label: facebook (Length Octet: 8)
+Label: com (Length Octet: 3)
+QTYPE: INVALID (28)
+QCLASS: IN (the Internet)
+
+========================
+---Header---
+ID: 40268
+QR: 0 (query)
+OPCODE: 0000 (standard query)
+AA: 0
+TC: 0
+RD: 1 (Recursion Desired)
+RA: 0
+RCODE: 0000 (No Error Condition)
+QDCOUNT: 1
+ANCOUNT: 0
+NSCOUNT: 0
+ARCOUNT: 0
+
+---Question----
+Label: www (Length Octet: 3)
+Label: google (Length Octet: 6)
+Label: co (Length Octet: 2)
+Label: uk (Length Octet: 2)
+QTYPE: A (a host address)
+QCLASS: IN (the Internet)
+
+========================
+---Header---
+ID: 11220
+QR: 0 (query)
+OPCODE: 0000 (standard query)
+AA: 0
+TC: 0
+RD: 1 (Recursion Desired)
+RA: 0
+RCODE: 0000 (No Error Condition)
+QDCOUNT: 1
+ANCOUNT: 0
+NSCOUNT: 0
+ARCOUNT: 0
+
+---Question----
+Label: www (Length Octet: 3)
+Label: google (Length Octet: 6)
+Label: co (Length Octet: 2)
+Label: uk (Length Octet: 2)
+QTYPE: INVALID (28)
+QCLASS: IN (the Internet)
