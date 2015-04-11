@@ -1,9 +1,11 @@
 extern crate time;
+extern crate term;
 
 use std::io::net::udp::UdpSocket;
 use std::io::net::ip::{Ipv4Addr, SocketAddr};
 use std::collections::HashMap;
 use std::num::SignedInt;
+//use std::io::prelude::*;
 
 use message::Message;
 use resource::Resource;
@@ -17,13 +19,18 @@ pub struct Server {
 	pub msg_lookup: HashMap<u16,Message>,
 	pub waiting_queue: Vec<Message>,
 	pub cache: HashMap<Vec<u8>,Resource>,
-	pub soa_cache: HashMap<Vec<u8>,Resource>
+	pub soa_cache: HashMap<Vec<u8>,Resource>,
+	pub option: int
 }
 
 impl Server {
-	pub fn new(addr: Vec<u8>) -> Server {
+	pub fn new(addr: Vec<u8>, opt: int) -> Server {
+    	let mut t = term::stdout().unwrap();
 		let mut sock = SocketAddr {ip: Ipv4Addr(addr[0], addr[1], addr[2], addr[3]), port: 53};
-		println!("Server starting on: {}.{}.{}.{}", addr[0], addr[1], addr[2], addr[3]);
+		write!(t, "\nServer starting on: ");
+    	t.fg(term::color::RED).unwrap();
+    	(write!(t, "{}.{}.{}.{}\n", addr[0], addr[1], addr[2], addr[3])).unwrap();
+    	t.reset();
 		return Server {
 			ip_lookup: HashMap::new(),
 			msg_lookup: HashMap::new(),
@@ -33,12 +40,13 @@ impl Server {
 				Err(e) 	=> {panic!(e)},
 			},
 			cache: HashMap::new(),
-			soa_cache: HashMap::new()
+			soa_cache: HashMap::new(),
+			option: opt
 		};
 	}
 
 	pub fn run(&mut self) {
-		println!("Running...");
+		println!("Running...\n");
 		loop {
 			let mut buffer = [0, ..512];
 			match self.socket.recv_from(&mut buffer) {
@@ -65,7 +73,15 @@ impl Server {
 			}
 		}
 
-
+		match self.option {
+			1 => {
+				message.print();
+			},
+			2 => {
+				message.questions[0].qname.print_as_hostname();
+			},
+			_ => {}
+		}
 
 		for i in range(0, self.waiting_queue.len()) {
 			if self.waiting_queue[i].header.id == message.header.id {
@@ -80,7 +96,6 @@ impl Server {
 						let mut i = 0;
 						while i < res.len() {
 							if res[i].rname.equals(tld.clone()) {
-								println!("hello");
 								match res[i].ip_addr() {
 									Some(ip) => {
 										self.send_message(&mut message, ip);

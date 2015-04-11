@@ -1,0 +1,654 @@
+glaroam2-154-147:src gtadam$ bash ./evaluation.sh
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	youtube.com
+Address: 212.56.71.59
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	youradexchange.com
+Address: 72.52.179.212
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	youku.com
+Address: 183.61.116.211
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	yandex.ru
+Address: 213.180.193.11
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	yahoo.com
+Address: 98.138.253.109
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	yahoo.co.jp
+Address: 183.79.135.206
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	xvideos.com
+Address: 141.0.174.40
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	xnxx.com
+Address: 141.0.174.42
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	xinhuanet.com
+Address: 202.108.119.193
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	xhamster.com
+Address: 88.208.24.56
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	wordpress.com
+Address: 192.0.78.9
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	wikipedia.org
+Address: 91.198.174.192
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	weibo.com
+Address: 114.134.80.162
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	walmart.com
+Address: 161.170.244.20
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	vk.com
+Address: 87.240.131.97
+.	rdata_630 = \# 1 00
+\000	rdata_900 = \# 2 766B
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	twitter.com
+Address: 185.45.5.43
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	tumblr.com
+Address: 66.6.41.30
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	tmall.com
+Address: 110.75.115.70
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	taobao.com
+Address: 110.75.115.70
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	t.co
+Address: 185.45.5.47
+.	rdata_372 = \# 1 00
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	stackoverflow.com
+Address: 198.252.206.140
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	soso.com
+Address: 220.181.124.154
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	sohu.com
+Address: 220.181.90.240
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	sina.com.cn
+Address: 202.108.33.60
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	reddit.com
+Address: 198.41.208.137
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	rakuten.co.jp
+Address: 133.237.48.124
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	qq.com
+Address: 125.39.240.113
+.	rdata_625 = \# 1 00
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	pornhub.com
+Address: 31.192.117.132
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	pinterest.com
+Address: 54.225.133.27
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+people.com.cn	canonical name = www.people.chinacache.net.
+www.people.chinacache.net	canonical name = www.people.cncssr.chinacache.net.
+www.people.cncssr.chinacache.net	canonical name = webcache.foreign.ccgslb.com.
+Name:	webcache.foreign.ccgslb.com
+Address: 180.210.234.69
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	paypal.com
+Address: 66.211.169.66
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	Onclickads.net
+Address: 78.140.191.80
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	odnoklassniki.ru
+Address: 217.20.147.94
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	netflix.com
+Address: 54.243.253.96
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	naver.com
+Address: 202.131.30.11
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	msn.com
+Address: 23.101.196.141
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	microsoft.com
+Address: 134.170.188.221
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	mail.ru
+Address: 217.69.139.200
+.	rdata_1133 = \# 0
+\000.\000	rdata_60 = \# 4 6D61696C
+Name:	ru
+Address: 217.69.139.202
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	live.com
+Address: 65.55.206.154
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	linkedin.com
+Address: 199.101.163.129
+
+;; connection timed out; no servers could be reached
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	instagram.com
+Address: 54.88.218.232
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	imgur.com
+Address: 185.31.18.193
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	imdb.com
+Address: 207.171.166.22
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	huffingtonpost.com
+Address: 149.174.107.97
+
+;; connection timed out; no servers could be reached
+
+;; connection timed out; no servers could be reached
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	Googleadservices.com
+Address: 216.58.209.226
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.ru
+Address: 212.56.71.212
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.pl
+Address: 212.56.71.30
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.it
+Address: 212.56.71.165
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.fr
+Address: 212.56.71.39
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.es
+Address: 212.56.71.249
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.de
+Address: 212.56.71.55
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.com.tr
+Address: 212.56.71.216
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.com.mx
+Address: 216.58.210.35
+
+;; connection timed out; no servers could be reached
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.com.br
+Address: 212.56.71.39
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.com.au
+Address: 212.56.71.49
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.com
+Address: 212.56.71.49
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.co.uk
+Address: 212.56.71.39
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.co.jp
+Address: 212.56.71.230
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.co.in
+Address: 212.56.71.49
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.ca
+Address: 216.58.210.35
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	go.com
+Address: 199.181.131.249
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	gmw.cn
+Address: 111.202.12.1
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	flipkart.com
+Address: 163.53.77.55
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	fc2.com
+Address: 54.149.155.124
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	facebook.com
+Address: 173.252.120.6
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+espn.go.com	canonical name = espn.gns.go.com.
+Name:	espn.gns.go.com
+Address: 199.181.133.61
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	ebay.de
+Address: 66.135.211.132
+.	rdata_1125 = \# 0
+\000.\000	rdata_3600 = \# 4 65626179
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	ebay.com
+Address: 66.211.160.86
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	ebay.co.uk
+Address: 66.135.215.61
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	dropbox.com
+Address: 108.160.165.62
+
+;; connection timed out; no servers could be reached
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	craigslist.org
+Address: 208.82.238.129
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	Cntv.cn
+Address: 202.108.8.82
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	cnn.com
+Address: 157.166.226.25
+.	rdata_867 = \# 0
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	Buzzfeed.com
+Address: 54.241.35.79
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	blogspot.com
+Address: 216.58.208.41
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	blogger.com
+Address: 216.58.208.41
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	bing.com
+Address: 204.79.197.200
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	bestbuy.com
+Address: 77.67.20.90
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	bbc.co.uk
+Address: 212.58.244.20
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	baidu.com
+Address: 180.149.132.47
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	ask.com
+Address: 66.235.120.127
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	apple.com
+Address: 17.172.224.47
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	amazon.de
+Address: 178.236.6.250
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	amazon.com
+Address: 176.32.98.166
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	amazon.co.uk
+Address: 178.236.7.220
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	amazon.co.jp
+Address: 54.240.248.0
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	amazon.cn
+Address: 203.81.17.130
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	alipay.com
+Address: 110.76.19.33
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	aliexpress.com
+Address: 205.204.96.1
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	alibaba.com
+Address: 205.204.96.36
+
+;; connection timed out; no servers could be reached
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	adobe.com
+Address: 192.150.16.117
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	adcash.com
+Address: 72.52.178.206
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	360.cn
+Address: 106.120.167.66
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	163.com
+Address: 123.58.180.7
+.	rdata_817 = \# 0
+
+205

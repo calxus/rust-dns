@@ -1,0 +1,1452 @@
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	youtube.com
+Address: 212.56.71.174
+Name:	youtube.com
+Address: 212.56.71.165
+Name:	youtube.com
+Address: 212.56.71.159
+Name:	youtube.com
+Address: 212.56.71.176
+Name:	youtube.com
+Address: 212.56.71.163
+Name:	youtube.com
+Address: 212.56.71.154
+Name:	youtube.com
+Address: 212.56.71.166
+Name:	youtube.com
+Address: 212.56.71.152
+Name:	youtube.com
+Address: 212.56.71.155
+Name:	youtube.com
+Address: 212.56.71.148
+Name:	youtube.com
+Address: 212.56.71.170
+Name:	youtube.com
+Address: 212.56.71.187
+Name:	youtube.com
+Address: 212.56.71.181
+Name:	youtube.com
+Address: 212.56.71.177
+Name:	youtube.com
+Address: 212.56.71.185
+Name:	youtube.com
+Address: 212.56.71.144
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	youradexchange.com
+Address: 72.52.179.212
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	youku.com
+Address: 123.126.99.31
+Name:	youku.com
+Address: 183.61.116.211
+Name:	youku.com
+Address: 101.227.10.19
+Name:	youku.com
+Address: 220.181.185.141
+Name:	youku.com
+Address: 119.167.145.19
+Name:	youku.com
+Address: 111.13.127.48
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	yandex.ru
+Address: 213.180.193.11
+Name:	yandex.ru
+Address: 93.158.134.11
+Name:	yandex.ru
+Address: 213.180.204.11
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	yahoo.com
+Address: 98.138.253.109
+Name:	yahoo.com
+Address: 98.139.183.24
+Name:	yahoo.com
+Address: 206.190.36.45
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	yahoo.co.jp
+Address: 182.22.59.229
+Name:	yahoo.co.jp
+Address: 183.79.135.206
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	xvideos.com
+Address: 141.0.174.35
+Name:	xvideos.com
+Address: 141.0.174.36
+Name:	xvideos.com
+Address: 141.0.174.37
+Name:	xvideos.com
+Address: 141.0.174.38
+Name:	xvideos.com
+Address: 141.0.174.40
+Name:	xvideos.com
+Address: 141.0.174.41
+Name:	xvideos.com
+Address: 141.0.174.42
+Name:	xvideos.com
+Address: 141.0.174.43
+Name:	xvideos.com
+Address: 141.0.174.44
+Name:	xvideos.com
+Address: 141.0.174.34
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	xnxx.com
+Address: 141.0.174.44
+Name:	xnxx.com
+Address: 141.0.174.34
+Name:	xnxx.com
+Address: 141.0.174.35
+Name:	xnxx.com
+Address: 141.0.174.36
+Name:	xnxx.com
+Address: 141.0.174.37
+Name:	xnxx.com
+Address: 141.0.174.38
+Name:	xnxx.com
+Address: 141.0.174.40
+Name:	xnxx.com
+Address: 141.0.174.41
+Name:	xnxx.com
+Address: 141.0.174.42
+Name:	xnxx.com
+Address: 141.0.174.43
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	xinhuanet.com
+Address: 202.108.119.193
+Name:	xinhuanet.com
+Address: 202.108.119.194
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	xhamster.com
+Address: 88.208.24.56
+Name:	xhamster.com
+Address: 88.208.24.58
+Name:	xhamster.com
+Address: 88.208.24.57
+Name:	xhamster.com
+Address: 88.208.24.59
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	wordpress.com
+Address: 192.0.78.17
+Name:	wordpress.com
+Address: 192.0.78.9
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	wikipedia.org
+Address: 91.198.174.192
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	weibo.com
+Address: 114.134.80.162
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	walmart.com
+Address: 161.170.244.20
+Name:	walmart.com
+Address: 161.170.248.20
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	vk.com
+Address: 87.240.131.99
+Name:	vk.com
+Address: 87.240.143.241
+Name:	vk.com
+Address: 87.240.131.117
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	twitter.com
+Address: 185.45.5.43
+Name:	twitter.com
+Address: 185.45.5.32
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	tumblr.com
+Address: 66.6.42.30
+Name:	tumblr.com
+Address: 66.6.43.30
+Name:	tumblr.com
+Address: 66.6.41.30
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	tmall.com
+Address: 110.75.115.70
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	taobao.com
+Address: 110.75.115.70
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	t.co
+Address: 185.45.5.47
+Name:	t.co
+Address: 185.45.5.36
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	stackoverflow.com
+Address: 198.252.206.140
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	soso.com
+Address: 106.120.151.169
+Name:	soso.com
+Address: 220.181.124.154
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	sohu.com
+Address: 123.125.116.19
+Name:	sohu.com
+Address: 220.181.90.240
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	sina.com.cn
+Address: 202.108.33.60
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	reddit.com
+Address: 198.41.209.139
+Name:	reddit.com
+Address: 198.41.208.138
+Name:	reddit.com
+Address: 198.41.208.141
+Name:	reddit.com
+Address: 198.41.209.142
+Name:	reddit.com
+Address: 198.41.209.141
+Name:	reddit.com
+Address: 198.41.208.140
+Name:	reddit.com
+Address: 198.41.209.138
+Name:	reddit.com
+Address: 198.41.209.140
+Name:	reddit.com
+Address: 198.41.209.143
+Name:	reddit.com
+Address: 198.41.208.143
+Name:	reddit.com
+Address: 198.41.209.137
+Name:	reddit.com
+Address: 198.41.209.136
+Name:	reddit.com
+Address: 198.41.208.142
+Name:	reddit.com
+Address: 198.41.208.137
+Name:	reddit.com
+Address: 198.41.208.139
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	rakuten.co.jp
+Address: 133.237.48.124
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	qq.com
+Address: 163.177.65.160
+Name:	qq.com
+Address: 125.39.240.113
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	pornhub.com
+Address: 31.192.117.132
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	pinterest.com
+Address: 54.197.238.4
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+people.com.cn	canonical name = www.people.chinacache.net.
+www.people.chinacache.net	canonical name = www.people.cncssr.chinacache.net.
+www.people.cncssr.chinacache.net	canonical name = webcache.foreign.ccgslb.com.
+Name:	webcache.foreign.ccgslb.com
+Address: 180.210.234.65
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	PayPal.com
+Address: 66.211.169.3
+Name:	PayPal.com
+Address: 66.211.169.66
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	Onclickads.net
+Address: 78.140.191.110
+Name:	Onclickads.net
+Address: 78.140.191.109
+Name:	Onclickads.net
+Address: 78.140.191.90
+Name:	Onclickads.net
+Address: 78.140.191.69
+Name:	Onclickads.net
+Address: 78.140.191.80
+Name:	Onclickads.net
+Address: 78.140.191.89
+Name:	Onclickads.net
+Address: 78.140.191.70
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	odnoklassniki.ru
+Address: 217.20.147.94
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	netflix.com
+Address: 107.20.154.246
+Name:	netflix.com
+Address: 107.20.177.34
+Name:	netflix.com
+Address: 174.129.2.58
+Name:	netflix.com
+Address: 23.21.190.124
+Name:	netflix.com
+Address: 23.23.191.68
+Name:	netflix.com
+Address: 50.19.210.42
+Name:	netflix.com
+Address: 54.204.2.219
+Name:	netflix.com
+Address: 54.204.43.31
+Name:	netflix.com
+Address: 54.225.192.83
+Name:	netflix.com
+Address: 54.243.253.96
+Name:	netflix.com
+Address: 75.101.139.66
+Name:	netflix.com
+Address: 107.20.151.133
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	Naver.com
+Address: 125.209.222.142
+Name:	Naver.com
+Address: 125.209.222.141
+Name:	Naver.com
+Address: 202.131.30.11
+Name:	Naver.com
+Address: 202.131.30.12
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	msn.com
+Address: 23.101.196.141
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	microsoft.com
+Address: 134.170.185.46
+Name:	microsoft.com
+Address: 134.170.188.221
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	mail.ru
+Address: 94.100.180.200
+Name:	mail.ru
+Address: 217.69.139.200
+Name:	mail.ru
+Address: 94.100.180.202
+Name:	mail.ru
+Address: 217.69.139.202
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	live.com
+Address: 65.55.206.154
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	linkedin.com
+Address: 199.101.163.129
+Name:	linkedin.com
+Address: 108.174.2.129
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+** server can't find kickass.so: NXDOMAIN
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	instagram.com
+Address: 52.1.64.28
+Name:	instagram.com
+Address: 54.165.191.152
+Name:	instagram.com
+Address: 107.23.4.118
+Name:	instagram.com
+Address: 52.0.115.99
+Name:	instagram.com
+Address: 107.23.77.213
+Name:	instagram.com
+Address: 107.23.188.25
+Name:	instagram.com
+Address: 107.23.183.195
+Name:	instagram.com
+Address: 107.23.247.160
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	imgur.com
+Address: 185.31.19.193
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	imdb.com
+Address: 72.21.210.29
+Name:	imdb.com
+Address: 72.21.206.80
+Name:	imdb.com
+Address: 207.171.166.22
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	huffingtonpost.com
+Address: 207.200.74.38
+Name:	huffingtonpost.com
+Address: 64.12.89.186
+Name:	huffingtonpost.com
+Address: 64.12.79.57
+Name:	huffingtonpost.com
+Address: 149.174.107.97
+Name:	huffingtonpost.com
+Address: 149.174.110.102
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	hao123.com
+Address: 180.149.131.31
+Name:	hao123.com
+Address: 180.149.132.19
+Name:	hao123.com
+Address: 123.125.114.224
+Name:	hao123.com
+Address: 123.125.115.150
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+*** Can't find googleusercontent.com: No answer
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	Googleadservices.com
+Address: 216.58.210.2
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.ru
+Address: 212.56.71.227
+Name:	google.ru
+Address: 212.56.71.212
+Name:	google.ru
+Address: 212.56.71.223
+Name:	google.ru
+Address: 212.56.71.240
+Name:	google.ru
+Address: 212.56.71.230
+Name:	google.ru
+Address: 212.56.71.249
+Name:	google.ru
+Address: 212.56.71.238
+Name:	google.ru
+Address: 212.56.71.234
+Name:	google.ru
+Address: 212.56.71.218
+Name:	google.ru
+Address: 212.56.71.229
+Name:	google.ru
+Address: 212.56.71.216
+Name:	google.ru
+Address: 212.56.71.245
+Name:	google.ru
+Address: 212.56.71.219
+Name:	google.ru
+Address: 212.56.71.241
+Name:	google.ru
+Address: 212.56.71.208
+Name:	google.ru
+Address: 212.56.71.251
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.pl
+Address: 212.56.71.49
+Name:	google.pl
+Address: 212.56.71.55
+Name:	google.pl
+Address: 212.56.71.25
+Name:	google.pl
+Address: 212.56.71.20
+Name:	google.pl
+Address: 212.56.71.59
+Name:	google.pl
+Address: 212.56.71.24
+Name:	google.pl
+Address: 212.56.71.39
+Name:	google.pl
+Address: 212.56.71.40
+Name:	google.pl
+Address: 212.56.71.30
+Name:	google.pl
+Address: 212.56.71.35
+Name:	google.pl
+Address: 212.56.71.34
+Name:	google.pl
+Address: 212.56.71.45
+Name:	google.pl
+Address: 212.56.71.54
+Name:	google.pl
+Address: 212.56.71.44
+Name:	google.pl
+Address: 212.56.71.50
+Name:	google.pl
+Address: 212.56.71.29
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.it
+Address: 212.56.71.24
+Name:	google.it
+Address: 212.56.71.44
+Name:	google.it
+Address: 212.56.71.30
+Name:	google.it
+Address: 212.56.71.45
+Name:	google.it
+Address: 212.56.71.34
+Name:	google.it
+Address: 212.56.71.55
+Name:	google.it
+Address: 212.56.71.49
+Name:	google.it
+Address: 212.56.71.50
+Name:	google.it
+Address: 212.56.71.54
+Name:	google.it
+Address: 212.56.71.29
+Name:	google.it
+Address: 212.56.71.39
+Name:	google.it
+Address: 212.56.71.35
+Name:	google.it
+Address: 212.56.71.25
+Name:	google.it
+Address: 212.56.71.20
+Name:	google.it
+Address: 212.56.71.59
+Name:	google.it
+Address: 212.56.71.40
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.fr
+Address: 212.56.71.49
+Name:	google.fr
+Address: 212.56.71.44
+Name:	google.fr
+Address: 212.56.71.39
+Name:	google.fr
+Address: 212.56.71.55
+Name:	google.fr
+Address: 212.56.71.29
+Name:	google.fr
+Address: 212.56.71.20
+Name:	google.fr
+Address: 212.56.71.59
+Name:	google.fr
+Address: 212.56.71.24
+Name:	google.fr
+Address: 212.56.71.45
+Name:	google.fr
+Address: 212.56.71.40
+Name:	google.fr
+Address: 212.56.71.25
+Name:	google.fr
+Address: 212.56.71.35
+Name:	google.fr
+Address: 212.56.71.54
+Name:	google.fr
+Address: 212.56.71.34
+Name:	google.fr
+Address: 212.56.71.50
+Name:	google.fr
+Address: 212.56.71.30
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.es
+Address: 212.56.71.174
+Name:	google.es
+Address: 212.56.71.154
+Name:	google.es
+Address: 212.56.71.155
+Name:	google.es
+Address: 212.56.71.187
+Name:	google.es
+Address: 212.56.71.148
+Name:	google.es
+Address: 212.56.71.176
+Name:	google.es
+Address: 212.56.71.144
+Name:	google.es
+Address: 212.56.71.177
+Name:	google.es
+Address: 212.56.71.185
+Name:	google.es
+Address: 212.56.71.159
+Name:	google.es
+Address: 212.56.71.163
+Name:	google.es
+Address: 212.56.71.170
+Name:	google.es
+Address: 212.56.71.152
+Name:	google.es
+Address: 212.56.71.181
+Name:	google.es
+Address: 212.56.71.166
+Name:	google.es
+Address: 212.56.71.165
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.de
+Address: 212.56.71.44
+Name:	google.de
+Address: 212.56.71.24
+Name:	google.de
+Address: 212.56.71.50
+Name:	google.de
+Address: 212.56.71.30
+Name:	google.de
+Address: 212.56.71.35
+Name:	google.de
+Address: 212.56.71.54
+Name:	google.de
+Address: 212.56.71.59
+Name:	google.de
+Address: 212.56.71.40
+Name:	google.de
+Address: 212.56.71.49
+Name:	google.de
+Address: 212.56.71.34
+Name:	google.de
+Address: 212.56.71.39
+Name:	google.de
+Address: 212.56.71.25
+Name:	google.de
+Address: 212.56.71.29
+Name:	google.de
+Address: 212.56.71.55
+Name:	google.de
+Address: 212.56.71.20
+Name:	google.de
+Address: 212.56.71.45
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.com.tr
+Address: 212.56.71.163
+Name:	google.com.tr
+Address: 212.56.71.165
+Name:	google.com.tr
+Address: 212.56.71.166
+Name:	google.com.tr
+Address: 212.56.71.176
+Name:	google.com.tr
+Address: 212.56.71.148
+Name:	google.com.tr
+Address: 212.56.71.155
+Name:	google.com.tr
+Address: 212.56.71.185
+Name:	google.com.tr
+Address: 212.56.71.187
+Name:	google.com.tr
+Address: 212.56.71.154
+Name:	google.com.tr
+Address: 212.56.71.174
+Name:	google.com.tr
+Address: 212.56.71.170
+Name:	google.com.tr
+Address: 212.56.71.144
+Name:	google.com.tr
+Address: 212.56.71.159
+Name:	google.com.tr
+Address: 212.56.71.181
+Name:	google.com.tr
+Address: 212.56.71.177
+Name:	google.com.tr
+Address: 212.56.71.152
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.com.mx
+Address: 212.56.71.34
+Name:	google.com.mx
+Address: 212.56.71.44
+Name:	google.com.mx
+Address: 212.56.71.35
+Name:	google.com.mx
+Address: 212.56.71.50
+Name:	google.com.mx
+Address: 212.56.71.29
+Name:	google.com.mx
+Address: 212.56.71.20
+Name:	google.com.mx
+Address: 212.56.71.54
+Name:	google.com.mx
+Address: 212.56.71.59
+Name:	google.com.mx
+Address: 212.56.71.45
+Name:	google.com.mx
+Address: 212.56.71.39
+Name:	google.com.mx
+Address: 212.56.71.49
+Name:	google.com.mx
+Address: 212.56.71.55
+Name:	google.com.mx
+Address: 212.56.71.30
+Name:	google.com.mx
+Address: 212.56.71.25
+Name:	google.com.mx
+Address: 212.56.71.24
+Name:	google.com.mx
+Address: 212.56.71.40
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.com.hk
+Address: 216.58.208.35
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.com.br
+Address: 212.56.71.54
+Name:	google.com.br
+Address: 212.56.71.55
+Name:	google.com.br
+Address: 212.56.71.45
+Name:	google.com.br
+Address: 212.56.71.44
+Name:	google.com.br
+Address: 212.56.71.49
+Name:	google.com.br
+Address: 212.56.71.20
+Name:	google.com.br
+Address: 212.56.71.40
+Name:	google.com.br
+Address: 212.56.71.59
+Name:	google.com.br
+Address: 212.56.71.50
+Name:	google.com.br
+Address: 212.56.71.24
+Name:	google.com.br
+Address: 212.56.71.34
+Name:	google.com.br
+Address: 212.56.71.29
+Name:	google.com.br
+Address: 212.56.71.25
+Name:	google.com.br
+Address: 212.56.71.35
+Name:	google.com.br
+Address: 212.56.71.30
+Name:	google.com.br
+Address: 212.56.71.39
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.com.au
+Address: 212.56.71.44
+Name:	google.com.au
+Address: 212.56.71.25
+Name:	google.com.au
+Address: 212.56.71.55
+Name:	google.com.au
+Address: 212.56.71.35
+Name:	google.com.au
+Address: 212.56.71.54
+Name:	google.com.au
+Address: 212.56.71.29
+Name:	google.com.au
+Address: 212.56.71.20
+Name:	google.com.au
+Address: 212.56.71.24
+Name:	google.com.au
+Address: 212.56.71.40
+Name:	google.com.au
+Address: 212.56.71.39
+Name:	google.com.au
+Address: 212.56.71.45
+Name:	google.com.au
+Address: 212.56.71.49
+Name:	google.com.au
+Address: 212.56.71.34
+Name:	google.com.au
+Address: 212.56.71.50
+Name:	google.com.au
+Address: 212.56.71.59
+Name:	google.com.au
+Address: 212.56.71.30
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 212.56.71.241
+Name:	google.com
+Address: 212.56.71.223
+Name:	google.com
+Address: 212.56.71.238
+Name:	google.com
+Address: 212.56.71.227
+Name:	google.com
+Address: 212.56.71.229
+Name:	google.com
+Address: 212.56.71.249
+Name:	google.com
+Address: 212.56.71.219
+Name:	google.com
+Address: 212.56.71.234
+Name:	google.com
+Address: 212.56.71.240
+Name:	google.com
+Address: 212.56.71.216
+Name:	google.com
+Address: 212.56.71.245
+Name:	google.com
+Address: 212.56.71.212
+Name:	google.com
+Address: 212.56.71.230
+Name:	google.com
+Address: 212.56.71.208
+Name:	google.com
+Address: 212.56.71.218
+Name:	google.com
+Address: 212.56.71.251
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.co.uk
+Address: 212.56.71.240
+Name:	google.co.uk
+Address: 212.56.71.238
+Name:	google.co.uk
+Address: 212.56.71.249
+Name:	google.co.uk
+Address: 212.56.71.223
+Name:	google.co.uk
+Address: 212.56.71.218
+Name:	google.co.uk
+Address: 212.56.71.230
+Name:	google.co.uk
+Address: 212.56.71.208
+Name:	google.co.uk
+Address: 212.56.71.227
+Name:	google.co.uk
+Address: 212.56.71.234
+Name:	google.co.uk
+Address: 212.56.71.245
+Name:	google.co.uk
+Address: 212.56.71.229
+Name:	google.co.uk
+Address: 212.56.71.251
+Name:	google.co.uk
+Address: 212.56.71.216
+Name:	google.co.uk
+Address: 212.56.71.212
+Name:	google.co.uk
+Address: 212.56.71.241
+Name:	google.co.uk
+Address: 212.56.71.219
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.co.jp
+Address: 212.56.71.40
+Name:	google.co.jp
+Address: 212.56.71.55
+Name:	google.co.jp
+Address: 212.56.71.54
+Name:	google.co.jp
+Address: 212.56.71.44
+Name:	google.co.jp
+Address: 212.56.71.59
+Name:	google.co.jp
+Address: 212.56.71.39
+Name:	google.co.jp
+Address: 212.56.71.35
+Name:	google.co.jp
+Address: 212.56.71.30
+Name:	google.co.jp
+Address: 212.56.71.45
+Name:	google.co.jp
+Address: 212.56.71.24
+Name:	google.co.jp
+Address: 212.56.71.25
+Name:	google.co.jp
+Address: 212.56.71.29
+Name:	google.co.jp
+Address: 212.56.71.50
+Name:	google.co.jp
+Address: 212.56.71.34
+Name:	google.co.jp
+Address: 212.56.71.49
+Name:	google.co.jp
+Address: 212.56.71.20
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.co.in
+Address: 212.56.71.245
+Name:	google.co.in
+Address: 212.56.71.238
+Name:	google.co.in
+Address: 212.56.71.216
+Name:	google.co.in
+Address: 212.56.71.229
+Name:	google.co.in
+Address: 212.56.71.212
+Name:	google.co.in
+Address: 212.56.71.219
+Name:	google.co.in
+Address: 212.56.71.227
+Name:	google.co.in
+Address: 212.56.71.230
+Name:	google.co.in
+Address: 212.56.71.249
+Name:	google.co.in
+Address: 212.56.71.234
+Name:	google.co.in
+Address: 212.56.71.241
+Name:	google.co.in
+Address: 212.56.71.218
+Name:	google.co.in
+Address: 212.56.71.223
+Name:	google.co.in
+Address: 212.56.71.240
+Name:	google.co.in
+Address: 212.56.71.251
+Name:	google.co.in
+Address: 212.56.71.208
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	google.ca
+Address: 212.56.71.35
+Name:	google.ca
+Address: 212.56.71.39
+Name:	google.ca
+Address: 212.56.71.50
+Name:	google.ca
+Address: 212.56.71.20
+Name:	google.ca
+Address: 212.56.71.45
+Name:	google.ca
+Address: 212.56.71.40
+Name:	google.ca
+Address: 212.56.71.59
+Name:	google.ca
+Address: 212.56.71.54
+Name:	google.ca
+Address: 212.56.71.30
+Name:	google.ca
+Address: 212.56.71.49
+Name:	google.ca
+Address: 212.56.71.29
+Name:	google.ca
+Address: 212.56.71.44
+Name:	google.ca
+Address: 212.56.71.34
+Name:	google.ca
+Address: 212.56.71.55
+Name:	google.ca
+Address: 212.56.71.24
+Name:	google.ca
+Address: 212.56.71.25
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	go.com
+Address: 199.181.131.249
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	gmw.cn
+Address: 111.202.12.1
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	flipkart.com
+Address: 163.53.77.55
+Name:	flipkart.com
+Address: 163.53.76.55
+Name:	flipkart.com
+Address: 163.53.77.22
+Name:	flipkart.com
+Address: 163.53.76.21
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	fc2.com
+Address: 54.215.250.132
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	facebook.com
+Address: 173.252.120.6
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+espn.go.com	canonical name = espn.gns.go.com.
+Name:	espn.gns.go.com
+Address: 199.181.133.61
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	ebay.de
+Address: 66.135.211.132
+Name:	ebay.de
+Address: 66.211.181.235
+Name:	ebay.de
+Address: 66.135.215.61
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	ebay.com
+Address: 66.135.216.190
+Name:	ebay.com
+Address: 66.211.160.87
+Name:	ebay.com
+Address: 66.211.160.86
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	ebay.co.uk
+Address: 66.135.215.61
+Name:	ebay.co.uk
+Address: 66.211.181.235
+Name:	ebay.co.uk
+Address: 66.135.211.132
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	dropbox.com
+Address: 108.160.166.62
+Name:	dropbox.com
+Address: 108.160.165.62
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	dailymotion.com
+Address: 195.8.215.137
+Name:	dailymotion.com
+Address: 195.8.215.138
+Name:	dailymotion.com
+Address: 195.8.215.139
+Name:	dailymotion.com
+Address: 195.8.215.136
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	craigslist.org
+Address: 208.82.238.129
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	Cntv.cn
+Address: 202.108.8.82
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	cnn.com
+Address: 157.166.226.25
+Name:	cnn.com
+Address: 157.166.226.26
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	Buzzfeed.com
+Address: 75.101.132.179
+Name:	Buzzfeed.com
+Address: 54.241.35.79
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	blogspot.com
+Address: 216.58.209.233
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	blogger.com
+Address: 216.58.210.73
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	bing.com
+Address: 204.79.197.200
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	bestbuy.com
+Address: 77.67.20.49
+Name:	bestbuy.com
+Address: 77.67.20.90
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	bbc.co.uk
+Address: 212.58.244.18
+Name:	bbc.co.uk
+Address: 212.58.246.103
+Name:	bbc.co.uk
+Address: 212.58.244.20
+Name:	bbc.co.uk
+Address: 212.58.246.104
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	baidu.com
+Address: 123.125.114.144
+Name:	baidu.com
+Address: 180.149.132.47
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	ask.com
+Address: 66.235.120.127
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	apple.com
+Address: 17.172.224.47
+Name:	apple.com
+Address: 17.142.160.59
+Name:	apple.com
+Address: 17.178.96.59
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	amazon.de
+Address: 178.236.6.250
+Name:	amazon.de
+Address: 176.32.108.185
+Name:	amazon.de
+Address: 178.236.7.219
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	amazon.com
+Address: 176.32.98.166
+Name:	amazon.com
+Address: 205.251.242.54
+Name:	amazon.com
+Address: 72.21.215.232
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	amazon.co.uk
+Address: 178.236.7.220
+Name:	amazon.co.uk
+Address: 178.236.6.251
+Name:	amazon.co.uk
+Address: 176.32.108.186
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	amazon.co.jp
+Address: 54.240.252.0
+Name:	amazon.co.jp
+Address: 54.240.250.0
+Name:	amazon.co.jp
+Address: 54.240.248.0
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	amazon.cn
+Address: 203.81.17.130
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	alipay.com
+Address: 110.76.20.33
+Name:	alipay.com
+Address: 110.76.19.33
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	aliexpress.com
+Address: 205.204.96.1
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	alibaba.com
+Address: 205.204.96.36
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+*** Can't find Akamaihd.net: No answer
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	adobe.com
+Address: 192.150.16.117
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	adcash.com
+Address: 72.52.178.206
+Name:	adcash.com
+Address: 67.227.226.196
+Name:	adcash.com
+Address: 67.227.226.194
+Name:	adcash.com
+Address: 67.227.226.195
+Name:	adcash.com
+Address: 72.52.178.205
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	360.cn
+Address: 106.120.167.66
+
+Server:		192.168.1.254
+Address:	192.168.1.254#53
+
+Non-authoritative answer:
+Name:	163.com
+Address: 123.58.180.8
+Name:	163.com
+Address: 123.58.180.7
+
+56

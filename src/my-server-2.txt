@@ -1,0 +1,665 @@
+glaroam2-154-147:src gtadam$ bash ./evaluation.sh
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	youtube.com
+Address: 212.56.71.59
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	youradexchange.com
+Address: 72.52.179.212
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	youku.com
+Address: 183.61.116.211
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	yandex.ru
+Address: 213.180.193.11
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	yahoo.com
+Address: 98.138.253.109
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	yahoo.co.jp
+Address: 183.79.135.206
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	xvideos.com
+Address: 141.0.174.40
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	xnxx.com
+Address: 141.0.174.42
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	xinhuanet.com
+Address: 202.108.119.193
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	xhamster.com
+Address: 88.208.24.56
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	wordpress.com
+Address: 192.0.78.9
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	wikipedia.org
+Address: 91.198.174.192
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find weibo.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find walmart.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	vk.com
+Address: 87.240.131.97
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find twitter.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find tumblr.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	tmall.com
+Address: 110.75.115.70
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	taobao.com
+Address: 110.75.115.70
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find t.co: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	stackoverflow.com
+Address: 198.252.206.140
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	soso.com
+Address: 220.181.124.154
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	sohu.com
+Address: 220.181.90.240
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find sina.com.cn: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	reddit.com
+Address: 198.41.208.137
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	rakuten.co.jp
+Address: 133.237.48.124
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	qq.com
+Address: 125.39.240.113
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	pornhub.com
+Address: 31.192.117.132
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find pinterest.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+people.com.cn	canonical name = www.people.chinacache.net.
+www.people.chinacache.net	canonical name = www.people.cncssr.chinacache.net.
+www.people.cncssr.chinacache.net	canonical name = webcache.foreign.ccgslb.com.
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	paypal.com
+Address: 66.211.169.66
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	Onclickads.net
+Address: 78.140.191.80
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	odnoklassniki.ru
+Address: 217.20.147.94
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find netflix.com: No answer
+
+;; Warning: Message parser reports malformed message packet.
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	naver.com
+Address: 125.209.222.141
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	msn.com
+Address: 23.101.196.141
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	microsoft.com
+Address: 134.170.188.221
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find mail.ru: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	live.com
+Address: 65.55.206.154
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	linkedin.com
+Address: 199.101.163.129
+
+;; connection timed out; no servers could be reached
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find instagram.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	imgur.com
+Address: 185.31.18.193
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	imdb.com
+Address: 207.171.166.22
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	huffingtonpost.com
+Address: 149.174.107.97
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	hao123.com
+Address: 180.149.131.31
+
+;; connection timed out; no servers could be reached
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	Googleadservices.com
+Address: 216.58.209.226
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.ru
+Address: 212.56.71.212
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.pl
+Address: 212.56.71.30
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.it
+Address: 212.56.71.165
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.fr
+Address: 212.56.71.39
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.es
+Address: 212.56.71.249
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.de
+Address: 212.56.71.55
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.com.tr
+Address: 212.56.71.216
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.com.mx
+Address: 216.58.210.35
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Name:	google.com.hk
+Address: 216.58.211.131
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.com.br
+Address: 212.56.71.39
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.com.au
+Address: 212.56.71.49
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.com
+Address: 212.56.71.49
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.co.uk
+Address: 212.56.71.39
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.co.jp
+Address: 212.56.71.230
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.co.in
+Address: 212.56.71.49
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	google.ca
+Address: 216.58.210.35
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	go.com
+Address: 199.181.131.249
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	gmw.cn
+Address: 111.202.12.1
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find flipkart.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find fc2.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	facebook.com
+Address: 173.252.120.6
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+espn.go.com	canonical name = espn.gns.go.com.
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	ebay.de
+Address: 66.135.211.132
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	ebay.com
+Address: 66.211.160.86
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	ebay.co.uk
+Address: 66.135.215.61
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find dropbox.com: No answer
+
+;; connection timed out; no servers could be reached
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	craigslist.org
+Address: 208.82.238.129
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	Cntv.cn
+Address: 202.108.8.82
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	cnn.com
+Address: 157.166.226.25
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	Buzzfeed.com
+Address: 54.241.35.79
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	blogspot.com
+Address: 216.58.208.41
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	blogger.com
+Address: 216.58.208.41
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	bing.com
+Address: 204.79.197.200
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find bestbuy.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	bbc.co.uk
+Address: 212.58.244.20
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	baidu.com
+Address: 180.149.132.47
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find ask.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	apple.com
+Address: 17.172.224.47
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	amazon.de
+Address: 178.236.6.250
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+*** Can't find amazon.com: No answer
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	amazon.co.uk
+Address: 178.236.7.220
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	amazon.co.jp
+Address: 54.240.248.0
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	amazon.cn
+Address: 203.81.17.130
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	alipay.com
+Address: 110.76.19.33
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	aliexpress.com
+Address: 205.204.96.1
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	alibaba.com
+Address: 205.204.96.36
+
+;; connection timed out; no servers could be reached
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	adobe.com
+Address: 192.150.16.117
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	adcash.com
+Address: 72.52.178.206
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	360.cn
+Address: 106.120.167.66
+
+Server:		192.168.1.3
+Address:	192.168.1.3#53
+
+Non-authoritative answer:
+Name:	163.com
+Address: 123.58.180.7
+
+67

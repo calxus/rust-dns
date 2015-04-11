@@ -183,7 +183,6 @@ impl Data {
 				data_buffer.push(self.label[i][j]);
 			}
 		}
-		data_buffer.push(0u8);
 		return data_buffer;
 	}
 
